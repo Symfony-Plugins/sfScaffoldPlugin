@@ -1,0 +1,52 @@
+# sfScaffold plugin (for symfony 1.4) #
+
+The `sfScaffoldPlugin` is a symfony plugin usign CSScaffold .
+
+## Installation ##
+
+  * Install the plugin (via a package)
+
+        symfony plugin:install sfScaffoldPlugin
+
+  * Install the plugin (via a Subversion checkout)
+  
+        svn co http://svn.symfony-project.com/plugins/sfScaffoldPlugin/trunk plugins/sfScaffoldPlugin
+
+  * Activate the plugin in the `config/ProjectConfiguration.class.php`
+  
+        [php]
+        class ProjectConfiguration extends sfProjectConfiguration
+        {
+          public function setup()
+          {
+            $this->enablePlugins(array(
+              'sfDoctrinePlugin', 
+              'sfScaffoldPlugin',
+              '...'
+            ));
+          }
+        }
+
+
+  * Enable one or more modules in your `settings.yml` (optional)
+    * For your application: sfScaffoldPlugin
+
+              all:
+                .settings:
+                  enabled_modules:      [default, sfScaffoldPlugin]
+
+  * Clear you cache
+
+        symfony cc
+
+#### Updating your Code ####
+
+Add in your html 'include_scaffold_stylesheets()'
+
+        <head>
+          <?php include_scaffold_stylesheets() ?>
+          .
+          .
+          .
+          
+        </head>

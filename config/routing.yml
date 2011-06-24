@@ -1,0 +1,5 @@
+css:
+  url: /scss/:stylesheet.:sf_format
+  param: { module: sfScaffoldPlugin, action: parse }
+  sf_requirements:
+    sf_format: css

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+  <name>SfScaffoldPlugin</name>
+  <channel>plugins.symfony-project.org</channel>
+  <summary>CSScaffold plugin</summary>
+  <description>The `sfScaffoldPlugin` is a symfony plugin usign CSScaffold</description>
+  <lead>
+    <name>Neil</name>
+    <user>Neil</user>
+    <email>neil@di-side.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2011-06-24</date>
+  <time>16:30:00</time>
+  <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+  </version>
+  <stability>
+    <release>stable</release>
+    <api>stable</api>
+  </stability>
+  <license uri="http://www.symfony-project.org/license">MIT license</license>
+  <notes>-</notes>
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.1.0</min>
+      </php>
+      <pearinstaller>
+        <min>1.4.1</min>
+      </pearinstaller>
+      <package>
+        <name>symfony</name>
+        <channel>pear.symfony-project.com</channel>
+        <min>1.4.0</min>
+        <max>1.5.0</max>
+        <exclude>1.5.0</exclude>
+      </package>
+    </required>
+  </dependencies>
+  <phprelease />
+  <changelog>
+    <release>
+      <version><release>1.0.0</release>
+        <api>1.0.0</api>
+      </version>
+      <stability>
+        <release>stable</release>
+        <api>stable</api>
+      </stability>
+      <date>2011-06-24</date>
+      <license uri="http://www.symfony-project.org/license">MIT license</license>
+      <notes>
+        First public release
+      </notes>
+    </release>
+  </changelog>
+</package>
